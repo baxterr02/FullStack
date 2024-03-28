@@ -184,7 +184,34 @@ relationship between the image and the image map.-->
 </script>
 <hr>
 <!--Background Image on a HTML element!-->
-<p style="background-image: url(/FrontEnd/Images/guts.jpg); width: 200px;height: 200px;">GUTS</p>
-    <!--Other Formats for background-image-->
+<p style="background-image: url(/FrontEnd/Images/guts.jpg); height: fit-content; width: fit-content;">GUTS</p>
+    <!--Other Formats for background-image
+        1
+        <style>
+            p{
+                background-image: url(--insert location--);
+            }
+        </style>
+    -->
+    <!--Background Image on a Page
+
+        <style>
+            body {
+                background-image: url(--insert location--);
+            }
+        </style>
+        To avoid the background image from repeating itself, set
+        the background-repeat property to no-repeat.
+
+         <style>
+            body {
+                background-image: url(--insert location--);
+                background-repeat: no-repeat;
+            }
+        </style>
+
+        <!--Background Cover-->
+
+        
 </body>
 </html>
