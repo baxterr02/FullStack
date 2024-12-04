@@ -9,10 +9,10 @@
         <link rel="icon" href="/HTML/html5.png" type="image/x-icon">
     </head>
     <body>
+        <header>
         <h1>My Goals for the Year</h1>
-        <hr>
 
-        <nav>
+        <nav aria-label="primary-navigation">
             <ul>
                 <li> 
                     <a href="#html">Learning HTML</a>
@@ -22,13 +22,24 @@
                 </li>
             </ul>
         </nav>
+    </header>
 
         <hr>
-        <section id="html">
+        <main>
+        <article id="html">
         <h2>I'm ready to learn HTML</h2>
         <p>This is my first webpage.</p>
+        <section>
+            <h3>HTML</h3>
         <img src="/HTML/img/html_logo_300x300.png" alt="html5 logo" title="I am learning HTML5" width="300" height="300">
-
+        <figure>
+            <figcaption>An Example of HTML5 code</figcaption>
+            <p>
+                <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+            </p>
+        </figure>
+    </section>
+    <section>
         <h3>My Daily Schedule</h3>
         <p>Let me tell you how:</p>
             <ol>
@@ -37,19 +48,55 @@
             <li>... I use resources from <abbr title="Mozilla Developer Network"><a href="https://developer.mozilla.org/en-US/">MDN</a></abbr>.</li>
         
     </ol>
+    <aside>
+        <details>
+            <summary>
+                Guess the <mark>number of hours </mark> I code per day?
+            </summary>
+            <p>I start at <time datetime="08:00">8 am </time> and I write code for <time datetime="PT3H">3 hours </time> every morning.</p>
+        </details>
+    </aside>
+    <br>
+    <table>
+        <tr>
+            <td>
+                <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time>
+            </td>
+            <td>Write Code</td>
+        </tr>
+        <tr>
+            <td>
+                <time datetime="11:00">11am</time>-<time datetime="12:00">12pm</time>
+            </td>
+            <td>Eat Lunch</td>
+        </tr>
+        <tr>
+            <td>
+                <time datetime="12:00">12pm</time>-<time datetime="17:00">5pm</time>
+            </td>
+            <td>Study for other Courses</td>
+        </tr>
+    </table>
 </section>
+</article>
         <hr>
 
-        <section id="vacation">
+        <article id="vacation">
         <h2>I Am Also Planning a Vacation</h2>
         <p>I've been working hard and <em>really need a getaway.</em></p>
         <p>I live in <abbr title="Kansas">KS</abbr> so I want to visit a beach</p>
 
-        
+        <section>
         <h3>Places I'd Like to Visit</h3>
         <ul>
         <li>
             <p>I've heard good things about the Carribean</p>
+            <figure>
+                <img src="/HTML/img/caribbean.jpg" alt="Caribbean beach" title="I want to visit a Caribbean beach" width="400" height="225" loading="lazy">
+                <figcaption>
+                    Caribbean Beach Getaway
+                </figcaption>
+            </figure>
         </li>
         <li>
             <p>I've heard good things about going here:</p>
@@ -60,9 +107,17 @@
             Mexico <br>
             Colonia Morelos, Mexico 77580
         </address>
+        <figure>
+            <img src="/HTML/img/vacation.jpg" alt="Cancun Vacation" title="It's 5 o'Clock Somewhere" width="400" height="267"" loading="lazy">
+            <figcaption>
+                Caribbean Vacation 
+            </figcaption>
+        </figure>
     </li>
     </ul>
+</section>
         <!-- TODO: Add more places-->
+         <section>
         <h3>Places I Want to Avoid</h3>
         <dl>
             <dt>North Pole</dt>
@@ -75,11 +130,16 @@
             <dd>These are also cold. </dd>
         </dl>
     </section>
-
+    </article>
+</main>
         <hr>
+        <footer>
+            <p>
         &lt;&lt;&lt; &copy; <a href="about.html">Baxterr Studios</a>&gt;&gt;&gt;    
         <p>
             <a href="#">Back to Top</a>
         </p>
+    </p>
+    </footer>
     </body>
 </html>
