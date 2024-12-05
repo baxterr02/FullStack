@@ -162,10 +162,12 @@
     </section>
     </article>
     <hr>
-    <article id="contact"></article>
+    <article id="contact">
     <h2>Contact Me</h2>
     <p>I'd really like to hear from you!</p>
     <form action="https://httpbin.org/get" method="get">
+        <fieldset>
+            <legend>Personal Information</legend>
         <p><label for="firstName">First Name:</label>
         <input type="text" name="firstName" id="firstName" placeholder="Jane" autocomplete="on" required >
     </p>
@@ -213,7 +215,51 @@
             <option value="other">
         </datalist>
     </p>
+</fieldset>
+<br>
+<fieldset>
+    <legend>What is your Favorite food?</legend>
+    <p>
+        <input type="radio" name="food" id="tacos" value="tacos">
+        <label for="tacos">Tacos</label>
+    </p>
+    <p>
+        <input type="radio" name="food" id="pizza" value="pizza">
+        <label for="pizza">Pizza</label>
+    </p>
+    <p>
+        <input type="radio" name="food" id="other" value="other">
+        <label for="other">Other</label>
+    </p>
+</fieldset>
+<fieldset>
+    <legend>Do you have pets?</legend>
+    <p>
+        <input type="checkbox" name="pets" id="dog" value="dog">
+        <label for="dog">Dog</label>
+    </p>
+    <p>
+        <input type="checkbox" name="pets" id="cat" value="cat">
+        <label for="cat">Cat</label>
+    </p>
+    <p>
+        <input type="checkbox" name="pets" id="fish" value="fish">
+        <label for="fish">Fish</label>
+    </p>
+ 
+</fieldset>
+<fieldset>
+    <legend>Send Me A Note</legend> 
+    <label for="message">Your Message:</label>
+    <br>
+    <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+</fieldset>
+<br>
+<button type="submit">Submit</button>
+<button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+<button type="reset">Reset</button>
     </form>
+</article>
 </main>
         <hr>
         <footer>
@@ -221,7 +267,7 @@
         &lt;&lt;&lt; &copy; <a href="about.html">Baxterr Studios</a>&gt;&gt;&gt;
     </p>    
         <p>
-            <a href="#">Back to Top</a>
+            <a href="#">Back  to Top</a>
         </p>
     
     </footer>
