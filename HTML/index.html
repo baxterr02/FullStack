@@ -20,6 +20,9 @@
                 <li>
                     <a href="#vacation">Planning a Vacation</a>
                 </li>
+                <li>
+                    <a href="#contact">Contact Me</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -51,31 +54,58 @@
     <aside>
         <details>
             <summary>
-                Guess the <mark>number of hours </mark> I code per day?
+                Guess the <mark>number of hours</mark> I code per day?
             </summary>
             <p>I start at <time datetime="08:00">8 am </time> and I write code for <time datetime="PT3H">3 hours </time> every morning.</p>
         </details>
     </aside>
     <br>
     <table>
+        <caption>My Daily Schedule</caption>
+        <thead>
         <tr>
+            <th>&nbsp;</th>
+            <th scope="col">Time</th>
+            <th scope="col">Activity</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Morning</th>
             <td>
                 <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time>
             </td>
             <td>Write Code</td>
         </tr>
         <tr>
+            <th scope="row">Break</th>
             <td>
                 <time datetime="11:00">11am</time>-<time datetime="12:00">12pm</time>
             </td>
             <td>Eat Lunch</td>
         </tr>
         <tr>
+            <th scope="row">Afternoon</th>
             <td>
                 <time datetime="12:00">12pm</time>-<time datetime="17:00">5pm</time>
             </td>
             <td>Study for other Courses</td>
         </tr>
+        <tr>
+            <th scope="row">Evening</th>
+            <td rowspan="2">All Other Times</td>
+            <td>Free Time</td>
+        </tr>
+        <tr>
+        <th scope="row">Night</th>
+        <td>Sleep</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">And that's what I do Everyday, 5 days a week. Just eatm sleep, code ..and recharge!</td>
+        </tr>
+    </tfoot>
     </table>
 </section>
 </article>
@@ -108,7 +138,7 @@
             Colonia Morelos, Mexico 77580
         </address>
         <figure>
-            <img src="/HTML/img/vacation.jpg" alt="Cancun Vacation" title="It's 5 o'Clock Somewhere" width="400" height="267"" loading="lazy">
+            <img src="/HTML/img/vacation.jpg" alt="Cancun Vacation" title="It's 5 o'Clock Somewhere" width="400" height="267" loading="lazy">
             <figcaption>
                 Caribbean Vacation 
             </figcaption>
@@ -131,15 +161,69 @@
         </dl>
     </section>
     </article>
+    <hr>
+    <article id="contact"></article>
+    <h2>Contact Me</h2>
+    <p>I'd really like to hear from you!</p>
+    <form action="https://httpbin.org/get" method="get">
+        <p><label for="firstName">First Name:</label>
+        <input type="text" name="firstName" id="firstName" placeholder="Jane" autocomplete="on" required >
+    </p>
+    <p>
+        <label for="lastName">Last name:</label>
+        <input type="text" name="lastName" id="lastName" placeholder="Doe" autocomplete="on" required >
+    </p>
+    <p>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="your secret" required >
+    </p>
+    <p>
+        <label for="phone">Phone:</label>
+        <input type="tel" name="phone" id="phone" placeholder="555-555-5555" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4]" >
+    </p>
+    <p>
+        <label for="decade">Favorite Decade:</label>
+        <input type="number" name="decade" id="decade" min="1950" max="2020" value="1980" step="10" >
+    </p>
+<!--     <p>
+        <label for="coffee">Favorite coffee:</label>
+        <select name="coffee" id="coffee" multiple size="5">
+            <optgroup label="Coffees">
+            <option value="regular coffee">Regular Coffee</option>
+            <option value="iced coffee">Iced Coffee</option>
+        </optgroup>
+        <optgroup label="Espresso Drinks">
+            <option value="latte" selected>Latte</option>
+            <option value="cappuccino">Cappuccino</option>
+            <option value="cortado">Cortado</option>
+            <option value="americano">Americano</option>
+        </optgroup>
+            <option value="other">Other</option>
+        </select>
+    </p> -->
+    <p>
+        <label for="coffee">Favorite coffee:</label>
+        <input type="text" name="coffee" id="coffee" list="coffee-list">
+        <datalist id="coffee-list">
+            <option value="coffee">
+            <option value="latte">
+            <option value="espresso">
+            <option value="cortado">
+            <option value="americano">
+            <option value="other">
+        </datalist>
+    </p>
+    </form>
 </main>
         <hr>
         <footer>
             <p>
-        &lt;&lt;&lt; &copy; <a href="about.html">Baxterr Studios</a>&gt;&gt;&gt;    
+        &lt;&lt;&lt; &copy; <a href="about.html">Baxterr Studios</a>&gt;&gt;&gt;
+    </p>    
         <p>
             <a href="#">Back to Top</a>
         </p>
-    </p>
+    
     </footer>
     </body>
 </html>
