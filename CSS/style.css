@@ -1,4 +1,15 @@
+body {
+    font-size: 22px;
+}
+
 p {
-    font-size: 64px; 
     color: purple;
+}
+
+.gray {
+    color: gray;
+}
+
+#second {
+    font-style: italic;
 }
