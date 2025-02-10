@@ -4,7 +4,7 @@ body {
 #box1 {
     border: 5px solid;
     width: 250px;
-    height: 350px;
+    height: 250px;
     font-size: 22px;
     background: greenyellow;
     padding: 10px;
@@ -13,9 +13,19 @@ body {
 #box2 {
     border: 5px solid;
     width: 250px;
-    height: 350px;
+    height: 250px;
     font-size: 22px;
     background: dodgerblue;
     padding: 10px;
     margin: auto auto auto auto;
+}
+
+#box3 {
+  border: 5px solid;
+  width: 250px;
+  height: 250px;
+  font-size: 22px;
+  background: yellow;
+  padding: 10px;
+  margin: auto auto auto auto;
 }
