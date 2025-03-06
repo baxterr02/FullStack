@@ -25,7 +25,7 @@ p {
 
 }
 
-.even {
+.even { 
     text-align: center;
     font-style: italic;
     border-style: double;
