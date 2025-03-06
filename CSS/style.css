@@ -1,0 +1,21 @@
+body {
+    background-color: lightskyblue;
+    font-family: Fuzzy Bubbles;
+}
+#heading {
+    color: pink;
+    font-weight: bold;
+    border: 10px;
+    border-style: ridge;
+    border-width: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+p {
+    text-align: center;
+    font-style: italic;
+    border-style: double;
+    border-width: 10px;
+    border-color: pink;
+    background-color: aquamarine;
+}
