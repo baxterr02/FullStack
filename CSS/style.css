@@ -12,10 +12,39 @@ body {
     text-align: center;
 }
 p {
+
+}
+
+.odd {
     text-align: center;
     font-style: italic;
     border-style: double;
     border-width: 10px;
     border-color: pink;
     background-color: aquamarine;
+
+}
+
+.even {
+    text-align: center;
+    font-style: italic;
+    border-style: double;
+    border-width: 10px;
+    border-color: aquamarine;
+    background-color: pink;
+}
+
+#p1 {
+    color: red;
+}
+
+#p2 {
+
+}
+
+#p3 {
+    color: red;
+}
+#p4 {
+
 }
