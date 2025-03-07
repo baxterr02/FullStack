@@ -11,9 +11,7 @@ body {
     border-radius: 20px;
     text-align: center;
 }
-p {
 
-}
 
 .odd {
     text-align: center;
@@ -38,13 +36,8 @@ p {
     color: red;
 }
 
-#p2 {
-
-}
 
 #p3 {
     color: red;
-}
-#p4 {
 
 }
