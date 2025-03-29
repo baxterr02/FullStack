@@ -1,18 +1,11 @@
 body {
-    background-color: #87cefa;
-    border-style:inset;
-    border-width: 10px;
-    width:auto;
-}
-#heading {
-    padding-left: 25%;
-    padding-right: 25%;
-    text-align: center;
+    background-color: lavenderblush;
 }
 
-#content {
-    
-    padding-left: 25%;
-    padding-right: 25%;
-    text-align:center;
+p {
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-style: italic;
 }
