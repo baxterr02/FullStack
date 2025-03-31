@@ -1,11 +1,19 @@
 body {
     background-color: lavenderblush;
 }
+.box {
+    border: 5px solid;
+    font-size: 2em;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+#box1 {
+    background-color: red;
+    text-align: center;
+}
 
-p {
-    color: blueviolet;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.1em;
-    font-weight: bold;
-    font-style: italic;
+#box2 {
+    background-color: blue;
+    text-align: center;
 }
