@@ -1,7 +1,14 @@
+html {
+    height: 100%;
+}
+
+
 body {
-    background-color: lavenderblush;
+    min-height: 100%;
+    margin: 0.5;
     border: 3px solid;
-    display: flow-root;
+    background-color: lavenderblush;
+    box-sizing: border-box;
 }
 #img1 {
     float: left;
