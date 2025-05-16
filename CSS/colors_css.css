@@ -1,0 +1,20 @@
+body {
+    background-color: hsla(0, 0%, 33%, 0.62);
+}
+
+#p1 {
+    color: tomato;
+}
+
+
+#p2 {
+    color: rgb(102, 222, 225);
+}
+
+#p3 {
+    color: #5beb34;
+}
+
+#p4 {
+    color: hwb(312 7% 24%);
+}
