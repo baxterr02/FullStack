@@ -9,6 +9,7 @@ body {
     border: 3px solid;
     background-color: lavenderblush;
     box-sizing: border-box;
+    display: flow-root;
 }
 #img1 {
     float: left;
