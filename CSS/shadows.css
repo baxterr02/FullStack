@@ -1,14 +1,13 @@
 body {
-    background-color: slategrey;
+    background-color: slategray;
 }
-
 h1 {
-    text-shadow: 3px 3px 5px hsl(0, 84%, 55%), -3px -3px 5px hsl(240, 93%, 66%);
+    text-shadow: 3px 3px 5px rgb(103, 103, 245), -3px -3px 5px rgb(247, 117, 117);
 }
 
 #box1 {
     width: 100px;
     height: 100px;
-    background-color: rgb(144, 136, 136);
-    box-shadow: 3px 3px 5px hsl(0, 84%, 55%), -3px -3px 5px hsl(240, 93%, 66%);
+    background-color:rgb(190, 190, 190) ;
+    box-shadow: 3px 3px 5px;
 }
