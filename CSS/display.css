@@ -1,13 +1,13 @@
 div {
-    background-color: rgb(241, 86, 86);
-    height: 100px;
+    background-color: red;
     width: 100px;
+    height: 100px;
+    display: none;
     visibility: hidden;
-    
 }
 span {
-    background-color: rgb(87, 87, 245);
-    display: inline-block;
+    background-color: blue;
+     width: 100px;
     height: 100px;
-    width: 100px;
+    display: inline-block;
 }
