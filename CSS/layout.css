@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+header{
+    background-color: hsl(0, 0%, 85%);
+    text-align: center;
+    padding: 25px;
+}
+.navbar{
+    background-color: black;
+    height: 50px;
+}
+
+aside{
+    width: 20%;
+    float: left;
+    padding: 20px;
+}
+
+section{
+    width: 40%;
+    float: left;
+    padding: 20px;
+}
+article{
+    width: 40%;
+    float: left;
+    padding: 20px;
+}
+
+footer{
+    clear: both;
+    background-color: hsl(0, 0%, 85%);
+    text-align: center;
+    padding: 25px;
+}
+
