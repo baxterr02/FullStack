@@ -1,13 +1,8 @@
-a:link{
-    color: blue;
+#greeting p {
+    background-color: hsl(224, 92%, 63%);
+    padding: 10px;
+    display: none;
 }
-a:hover {
-    color: green;
-    font-size: 1.1em;
-}
-a:active {
-    color: darkblue;
-}
-a:visited {
-    color: yellow;
+#greeting:hover p{
+    display: block;
 }
