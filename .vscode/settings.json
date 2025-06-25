@@ -1,4 +1,83 @@
 {
+    "workbench.iconTheme": "vscode-icons",
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path-windows": "C:\\Users\\baxterr02\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+        "vscode-kubernetes.kubectl-path-windows": "C:\\Users\\baxterr02\\.vs-kubernetes\\tools\\kubectl\\kubectl.exe",
+        "vscode-kubernetes.minikube-path-windows": "C:\\Users\\baxterr02\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
+    },
+    "redhat.telemetry.enabled": true,
+    "git.autofetch": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "liveServer.settings.donotVerifyTags": true,
+    "workbench.startupEditor": "none",
+    "glassit.alpha": 255,
+    "cmake.showOptionsMovedNotification": false,
+    "animations.Install-Method": "Apc Customize UI++",
+    "apc.imports": [
+        "file://${userHome}/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+    ],
+    "codeium.enableConfig": {
+        "*": true,
+        "properties": true
+    },
+    
+    // Transparency settings for VSCode
+    "window.titleBarStyle": "custom",
+    "window.background": "#00000000",
+    "terminal.integrated.inheritEnv": false,
+    "database-client.autoSync": true,
+    "workbench.colorTheme": "Alt Catppuccin Macchiato",
+    "workbench.colorCustomizations": {
+        "[Vira*]": {
+            "toolbar.activeBackground": "#E9A58126",
+            "activityBarBadge.background": "#E9A581",
+            "activityBar.activeBorder": "#E9A581",
+            "activityBarTop.activeBorder": "#E9A581",
+            "list.inactiveSelectionIconForeground": "#E9A581",
+            "list.activeSelectionForeground": "#E9A581",
+            "list.inactiveSelectionForeground": "#E9A581",
+            "list.highlightForeground": "#E9A581",
+            "sash.hoverBorder": "#E9A58180",
+            "list.activeSelectionIconForeground": "#E9A581",
+            "scrollbarSlider.activeBackground": "#E9A58180",
+            "editorSuggestWidget.highlightForeground": "#E9A581",
+            "textLink.foreground": "#E9A581",
+            "progressBar.background": "#E9A581",
+            "pickerGroup.foreground": "#E9A581",
+            "tab.activeBorder": "#E9A581",
+            "notificationLink.foreground": "#E9A581",
+            "editorWidget.resizeBorder": "#E9A581",
+            "editorWidget.border": "#E9A581",
+            "settings.modifiedItemIndicator": "#E9A581",
+            "settings.headerForeground": "#E9A581",
+            "panelTitle.activeBorder": "#E9A581",
+            "breadcrumb.activeSelectionForeground": "#E9A581",
+            "menu.selectionForeground": "#E9A581",
+            "menubar.selectionForeground": "#E9A581",
+            "editor.findMatchBorder": "#E9A581",
+            "selection.background": "#E9A58140",
+            "statusBarItem.remoteBackground": "#E9A581",
+            "notebook.inactiveFocusedCellBorder": "#E9A58180",
+            "commandCenter.activeBorder": "#E9A58180"
+        }
+    },
+    "viraTheme.accent": "Vira",
     "stm32-for-vscode.openOCDPath": false,
-    "stm32-for-vscode.armToolchainPath": false
+    "stm32-for-vscode.makePath": false,
+    "stm32-for-vscode.armToolchainPath": false,
+    "terminal.integrated.automationProfile.linux": {},
+    "remote.autoForwardPortsSource": "hybrid",
+    
+    // Updated font settings for Fira Code
+    "editor.fontFamily": "'FiraCode Nerd Font', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.fontWeight": "normal",
+    "terminal.integrated.fontFamily": "'FiraCode Nerd Font'",
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.lineHeight": 1.2,
+    
+    // Optional: For better rendering
+    "editor.letterSpacing": 0.3,
+    "editor.lineHeight": 24
 }
