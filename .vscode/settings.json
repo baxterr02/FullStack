@@ -24,7 +24,7 @@
     "window.background": "#00000000",
     "terminal.integrated.inheritEnv": false,
     "database-client.autoSync": true,
-    "workbench.colorTheme": "Alt Catppuccin Macchiato",
+    "workbench.colorTheme": "Alt Catppuccin Mocha",
     "workbench.colorCustomizations": {
         "[Vira*]": {
             "toolbar.activeBackground": "#E9A58126",
